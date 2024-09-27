@@ -128,11 +128,21 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* *MAX TO 1.160 PX */
+@media screen and (max-width: 1160px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* *TABLET VERSION */
 @media screen and (max-width: 768px) {
   .container {
     max-width: 100vw;
   }
 }
+
+/* *MOBILE VERSION */
 @media screen and (max-width: 480px) {
   .container {
     max-width: 100vw;
